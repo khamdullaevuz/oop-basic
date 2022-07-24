@@ -1,0 +1,23 @@
+{
+    "name": "khamdullaevuz/oop-basic",
+    "description": "A simple php oop project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khamdullaevuz\\App\\Controllers\\": "src/controllers/",
+            "Khamdullaevuz\\App\\Models\\": "src/models/",
+            "Khamdullaevuz\\App\\Traits\\": "src/traits/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elbek Khamdullaev",
+            "email": "elbek.khamdullaev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "9.5.21"
+    }
+}
